@@ -4,7 +4,20 @@
     <bookmark url="file://$PROJECT_DIR$/templates/main.html" line="7" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b4a4a7e-3e7f-4b00-a6ed-48d94ba80622" name="Default" comment="" />
+    <list default="true" id="7b4a4a7e-3e7f-4b00-a6ed-48d94ba80622" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/67f986e1-46d0-481c-afcc-5846f14ce34f.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/67f986e1-46d0-481c-afcc-5846f14ce34f.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/my_main/migrations/0001_initial.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/my_main/migrations/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/my_main/models.py" afterPath="$PROJECT_DIR$/my_main/models.py" />
+      <change beforePath="$PROJECT_DIR$/my_main/utils.py" afterPath="$PROJECT_DIR$/my_main/utils.py" />
+      <change beforePath="$PROJECT_DIR$/my_main/views.py" afterPath="$PROJECT_DIR$/my_main/views.py" />
+      <change beforePath="$PROJECT_DIR$/templates/select_search.html" afterPath="$PROJECT_DIR$/templates/select_search.html" />
+      <change beforePath="$PROJECT_DIR$/templates/sql_search.html" afterPath="$PROJECT_DIR$/templates/sql_search.html" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +50,27 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="mydbsystem: schema" type="c314c289:MysqlImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mydbsystem@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mydbsystem: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="my_main_store: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mydbsystem@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mydbsystem: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="my_main_supplier: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mydbsystem@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mydbsystem: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="my_main_supplier_supplyconsume: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
@@ -48,28 +82,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2506">
-              <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base_site.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/admin/base_site.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/admin/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="14" />
+            <state relative-caret-position="0">
+              <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -78,8 +92,8 @@
       <file leaf-file-name="sql_search.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/sql_search.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="28" selection-end-column="76" />
+            <state relative-caret-position="1519">
+              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="53" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -88,18 +102,30 @@
       <file leaf-file-name="select_search.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/select_search.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="33" column="26" lean-forward="false" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+            <state relative-caret-position="2139">
+              <caret line="69" column="12" lean-forward="false" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="12" />
+              <folding>
+                <element signature="e#1408#1415#1#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/admin/index.css">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_main/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
-              <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            <state relative-caret-position="465">
+              <caret line="90" column="17" lean-forward="true" selection-start-line="90" selection-start-column="10" selection-end-line="90" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -108,7 +134,7 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-248">
+            <state relative-caret-position="496">
               <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
               <folding />
             </state>
@@ -118,8 +144,78 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Exper3/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
+            <state relative-caret-position="744">
               <caret line="26" column="74" lean-forward="false" selection-start-line="26" selection-start-column="74" selection-end-line="26" selection-end-column="74" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_main/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1643">
+              <caret line="53" column="19" lean-forward="true" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+              <folding>
+                <marker date="1526306967860" expanded="true" signature="473:503" ph="select * fro... my_main_customer" />
+                <marker date="1526306967860" expanded="true" signature="539:569" ph="select * fro... my_main_employee" />
+                <marker date="1526306967860" expanded="true" signature="605:634" ph="select * fro... my_main_consume" />
+                <marker date="1526306967860" expanded="true" signature="670:955" ph="select SeatN... my_main_movieseat" />
+                <marker date="1526306967860" expanded="true" signature="991:1023" ph="select * fro... my_main_moviehouse" />
+                <marker date="1526306967860" expanded="true" signature="1059:1086" ph="select * fro... my_main_store" />
+                <marker date="1526306967860" expanded="true" signature="1122:1152" ph="select * fro... my_main_supplier" />
+                <marker date="1526306967860" expanded="true" signature="1188:1215" ph="select * fro... my_main_movie" />
+                <marker date="1526306967860" expanded="true" signature="1251:1286" ph="select * fro... my_main_moviesupplier" />
+                <marker date="1526306967860" expanded="true" signature="1322:1349" ph="select * fro... my_main_goods" />
+                <marker date="1526306967860" expanded="true" signature="1387:1432" ph="select * fro... my_main_customer" />
+                <marker date="1526306967860" expanded="true" signature="1387:1433" ph="select * fro... my_main_customer" />
+                <marker date="1526306967860" expanded="true" signature="1387:1442" ph="select * fro... my_main_customer" />
+                <marker date="1526306967860" expanded="true" signature="1479:1641" ph="select * fro... my_main_customer" />
+                <marker date="1526306967860" expanded="true" signature="1479:1662" ph="select * fro... my_main_customer" />
+                <marker date="1526306967860" expanded="true" signature="1479:1668" ph="select CusNa... my_main_customer" />
+                <marker date="1526306967860" expanded="true" signature="1704:1920" ph="select CusNa... my_main_customer" />
+                <marker date="1526306967860" expanded="true" signature="1704:1926" ph="select CusNa... my_main_customer" />
+                <marker date="1526306967860" expanded="true" signature="1962:2012" ph="select * fro... my_main_employee" />
+                <marker date="1526306967860" expanded="true" signature="1962:2021" ph="select * fro... my_main_employee" />
+                <marker date="1526306967860" expanded="true" signature="2058:2105" ph="select * fro... my_main_consume" />
+                <marker date="1526306967860" expanded="true" signature="2058:2111" ph="select * fro... my_main_consume" />
+                <marker date="1526306967860" expanded="true" signature="2147:2282" ph="select * fro... my_main_movieseat" />
+                <marker date="1526306967860" expanded="true" signature="2324:2374" ph="select * fro... my_main_movie" />
+                <marker date="1526306967860" expanded="true" signature="2324:2383" ph="select * fro... my_main_movie" />
+                <marker date="1526306967860" expanded="true" signature="2420:2631" ph="select * fro... my_main_movie" />
+                <marker date="1526306967860" expanded="true" signature="2673:2678" ph="select * fro... WHE" />
+                <marker date="1526306967860" expanded="true" signature="2673:2833" ph="select House... my_main_employee" />
+                <marker date="1526306967860" expanded="true" signature="2875:2920" ph="select * fro... my_main_store" />
+                <marker date="1526306967860" expanded="true" signature="2875:2929" ph="select * fro... my_main_store" />
+                <marker date="1526306967860" expanded="true" signature="2966:3129" ph="select * fro... my_main_store" />
+                <marker date="1526306967860" expanded="true" signature="2966:3179" ph="select * fro... my_main_store" />
+                <marker date="1526306967860" expanded="true" signature="3221:3376" ph="select * fro... my_main_store" />
+                <marker date="1526306967860" expanded="true" signature="3418:3549" ph="select * fro... my_main_goods" />
+                <marker date="1526306967860" expanded="true" signature="3591:3642" ph="select * fro... my_main_supplier" />
+                <marker date="1526306967860" expanded="true" signature="3591:3651" ph="select * fro... my_main_supplier" />
+                <marker date="1526306967860" expanded="true" signature="3688:3853" ph="select * fro... my_main_supplier" />
+                <marker date="1526306967860" expanded="true" signature="3895:3940" ph="select * fro... my_main_movie" />
+                <marker date="1526306967860" expanded="true" signature="3895:3949" ph="select * fro... my_main_movie" />
+                <marker date="1526306967860" expanded="true" signature="3986:4169" ph="select * fro... my_main_movie" />
+                <marker date="1526306967860" expanded="true" signature="4211:4283" ph="select * fro... s" />
+                <marker date="1526306967860" expanded="true" signature="4211:4363" ph="select * fro... my_main_movie" />
+                <marker date="1526306967860" expanded="true" signature="4405:4456" ph="select * fro... my_main_supplier" />
+                <marker date="1526306967860" expanded="true" signature="4405:4465" ph="select * fro... my_main_supplier" />
+                <marker date="1526306967860" expanded="true" signature="4502:4661" ph="select * fro... my_main_supplier" />
+                <marker date="1526306967860" expanded="true" signature="4703:4748" ph="select * fro... my_main_goods" />
+                <marker date="1526306967860" expanded="true" signature="4703:4757" ph="select * fro... my_main_goods" />
+                <marker date="1526306967860" expanded="true" signature="4794:4878" ph="select * fro... my_main_goods" />
+                <marker date="1526306967860" expanded="true" signature="4920:5013" ph="select * fro... my_main_goods" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="apps.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_main/apps.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -128,21 +224,11 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/my_main/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+            <state relative-caret-position="145">
+              <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_main/utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -163,7 +249,11 @@
       <find>many</find>
       <find>form_top</find>
       <find>form-top</find>
+      <find>alert</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -177,7 +267,6 @@
         <option value="$PROJECT_DIR$/admin/templates/admin/login.html" />
         <option value="$PROJECT_DIR$/admin/templates/admin/base.html" />
         <option value="$PROJECT_DIR$/admin/templates/admin/change_form.html" />
-        <option value="$PROJECT_DIR$/my_main/models.py" />
         <option value="$PROJECT_DIR$/admin/templates/registration/logged_out.html" />
         <option value="$PROJECT_DIR$/Exper3/settings.py" />
         <option value="$PROJECT_DIR$/my_main/admin.py" />
@@ -193,13 +282,14 @@
         <option value="$PROJECT_DIR$/templates/sql_manage.html" />
         <option value="$PROJECT_DIR$/templates/admin/index.html" />
         <option value="$PROJECT_DIR$/templates/admin/base_site.html" />
-        <option value="$PROJECT_DIR$/my_main/utils.py" />
         <option value="$PROJECT_DIR$/static/css/index.css" />
-        <option value="$PROJECT_DIR$/templates/sql_search.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/my_main/views.py" />
         <option value="$PROJECT_DIR$/Exper3/urls.py" />
+        <option value="$PROJECT_DIR$/templates/sql_search.html" />
+        <option value="$PROJECT_DIR$/my_main/views.py" />
         <option value="$PROJECT_DIR$/templates/select_search.html" />
+        <option value="$PROJECT_DIR$/my_main/models.py" />
+        <option value="$PROJECT_DIR$/my_main/utils.py" />
       </list>
     </option>
   </component>
@@ -210,10 +300,12 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="x" value="412" />
+    <option name="y" value="-11" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -229,7 +321,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -240,35 +331,7 @@
             <path>
               <item name="Exper3" type="b2602c69:ProjectViewProjectNode" />
               <item name="Exper3" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exper3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exper3" type="462c0819:PsiDirectoryNode" />
-              <item name="Exper3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exper3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exper3" type="462c0819:PsiDirectoryNode" />
               <item name="my_main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exper3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exper3" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exper3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exper3" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exper3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exper3" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Exper3" type="b2602c69:ProjectViewProjectNode" />
@@ -279,6 +342,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -370,13 +434,13 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32846716" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17430703" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1391258" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1337953" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24307036" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -397,31 +461,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3813">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/templates/admin/auth/user/change_password.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/templates/admin/auth/user/add_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/templates/admin/actions.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -457,13 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_main/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my_main/migrations/0001_initial.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -475,7 +513,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -629,7 +666,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14756">
           <caret line="492" column="71" lean-forward="false" selection-start-line="492" selection-start-column="71" selection-end-line="492" selection-end-column="71" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -637,7 +673,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -646,15 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
           <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_main/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-806">
-          <caret line="82" column="14" lean-forward="false" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -662,23 +688,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_main/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/admin/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="62">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding />
+          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -686,7 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="62">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -700,7 +715,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-248">
+        <state relative-caret-position="496">
           <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
           <folding />
         </state>
@@ -708,40 +723,140 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2506">
-          <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/sql_search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="28" selection-end-column="76" />
+        <state relative-caret-position="0">
+          <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Exper3/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
+        <state relative-caret-position="744">
           <caret line="26" column="74" lean-forward="false" selection-start-line="26" selection-start-column="74" selection-end-line="26" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sql_search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1519">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="53" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/select_search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="33" column="26" lean-forward="false" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+        <state relative-caret-position="2139">
+          <caret line="69" column="12" lean-forward="false" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="12" />
+          <folding>
+            <element signature="e#1408#1415#1#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/67f986e1-46d0-481c-afcc-5846f14ce34f/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/49167847-a88e-4e87-a30b-9be30970a91a/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_main/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_main/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="90" column="17" lean-forward="true" selection-start-line="90" selection-start-column="10" selection-end-line="90" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_main/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1643">
+          <caret line="53" column="19" lean-forward="true" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+          <folding>
+            <marker date="1526306967860" expanded="true" signature="473:503" ph="select * fro... my_main_customer" />
+            <marker date="1526306967860" expanded="true" signature="539:569" ph="select * fro... my_main_employee" />
+            <marker date="1526306967860" expanded="true" signature="605:634" ph="select * fro... my_main_consume" />
+            <marker date="1526306967860" expanded="true" signature="670:955" ph="select SeatN... my_main_movieseat" />
+            <marker date="1526306967860" expanded="true" signature="991:1023" ph="select * fro... my_main_moviehouse" />
+            <marker date="1526306967860" expanded="true" signature="1059:1086" ph="select * fro... my_main_store" />
+            <marker date="1526306967860" expanded="true" signature="1122:1152" ph="select * fro... my_main_supplier" />
+            <marker date="1526306967860" expanded="true" signature="1188:1215" ph="select * fro... my_main_movie" />
+            <marker date="1526306967860" expanded="true" signature="1251:1286" ph="select * fro... my_main_moviesupplier" />
+            <marker date="1526306967860" expanded="true" signature="1322:1349" ph="select * fro... my_main_goods" />
+            <marker date="1526306967860" expanded="true" signature="1387:1432" ph="select * fro... my_main_customer" />
+            <marker date="1526306967860" expanded="true" signature="1387:1433" ph="select * fro... my_main_customer" />
+            <marker date="1526306967860" expanded="true" signature="1387:1442" ph="select * fro... my_main_customer" />
+            <marker date="1526306967860" expanded="true" signature="1479:1641" ph="select * fro... my_main_customer" />
+            <marker date="1526306967860" expanded="true" signature="1479:1662" ph="select * fro... my_main_customer" />
+            <marker date="1526306967860" expanded="true" signature="1479:1668" ph="select CusNa... my_main_customer" />
+            <marker date="1526306967860" expanded="true" signature="1704:1920" ph="select CusNa... my_main_customer" />
+            <marker date="1526306967860" expanded="true" signature="1704:1926" ph="select CusNa... my_main_customer" />
+            <marker date="1526306967860" expanded="true" signature="1962:2012" ph="select * fro... my_main_employee" />
+            <marker date="1526306967860" expanded="true" signature="1962:2021" ph="select * fro... my_main_employee" />
+            <marker date="1526306967860" expanded="true" signature="2058:2105" ph="select * fro... my_main_consume" />
+            <marker date="1526306967860" expanded="true" signature="2058:2111" ph="select * fro... my_main_consume" />
+            <marker date="1526306967860" expanded="true" signature="2147:2282" ph="select * fro... my_main_movieseat" />
+            <marker date="1526306967860" expanded="true" signature="2324:2374" ph="select * fro... my_main_movie" />
+            <marker date="1526306967860" expanded="true" signature="2324:2383" ph="select * fro... my_main_movie" />
+            <marker date="1526306967860" expanded="true" signature="2420:2631" ph="select * fro... my_main_movie" />
+            <marker date="1526306967860" expanded="true" signature="2673:2678" ph="select * fro... WHE" />
+            <marker date="1526306967860" expanded="true" signature="2673:2833" ph="select House... my_main_employee" />
+            <marker date="1526306967860" expanded="true" signature="2875:2920" ph="select * fro... my_main_store" />
+            <marker date="1526306967860" expanded="true" signature="2875:2929" ph="select * fro... my_main_store" />
+            <marker date="1526306967860" expanded="true" signature="2966:3129" ph="select * fro... my_main_store" />
+            <marker date="1526306967860" expanded="true" signature="2966:3179" ph="select * fro... my_main_store" />
+            <marker date="1526306967860" expanded="true" signature="3221:3376" ph="select * fro... my_main_store" />
+            <marker date="1526306967860" expanded="true" signature="3418:3549" ph="select * fro... my_main_goods" />
+            <marker date="1526306967860" expanded="true" signature="3591:3642" ph="select * fro... my_main_supplier" />
+            <marker date="1526306967860" expanded="true" signature="3591:3651" ph="select * fro... my_main_supplier" />
+            <marker date="1526306967860" expanded="true" signature="3688:3853" ph="select * fro... my_main_supplier" />
+            <marker date="1526306967860" expanded="true" signature="3895:3940" ph="select * fro... my_main_movie" />
+            <marker date="1526306967860" expanded="true" signature="3895:3949" ph="select * fro... my_main_movie" />
+            <marker date="1526306967860" expanded="true" signature="3986:4169" ph="select * fro... my_main_movie" />
+            <marker date="1526306967860" expanded="true" signature="4211:4283" ph="select * fro... s" />
+            <marker date="1526306967860" expanded="true" signature="4211:4363" ph="select * fro... my_main_movie" />
+            <marker date="1526306967860" expanded="true" signature="4405:4456" ph="select * fro... my_main_supplier" />
+            <marker date="1526306967860" expanded="true" signature="4405:4465" ph="select * fro... my_main_supplier" />
+            <marker date="1526306967860" expanded="true" signature="4502:4661" ph="select * fro... my_main_supplier" />
+            <marker date="1526306967860" expanded="true" signature="4703:4748" ph="select * fro... my_main_goods" />
+            <marker date="1526306967860" expanded="true" signature="4703:4757" ph="select * fro... my_main_goods" />
+            <marker date="1526306967860" expanded="true" signature="4794:4878" ph="select * fro... my_main_goods" />
+            <marker date="1526306967860" expanded="true" signature="4920:5013" ph="select * fro... my_main_goods" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my_main/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+        <state relative-caret-position="145">
+          <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>

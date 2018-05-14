@@ -8,7 +8,7 @@ class Customer(models.Model):
         ("female","女")
     )
 
-    CusNum = models.CharField(max_length=20,primary_key=True)
+    CusNum = models.IntegerField(primary_key=True)
     CusName = models.CharField(max_length=10)
     CusSex = models.CharField(max_length=10,choices=SexType)
 
@@ -22,7 +22,7 @@ class Consume(models.Model):
         ("products","商品")
     )
 
-    ConsumeNum = models.CharField(max_length=20,primary_key=True)
+    ConsumeNum = models.IntegerField(primary_key=True)
     ConsumeType = models.CharField(max_length=10,choices=Type)
     ConsumeAmount = models.IntegerField(default=0)
     Consumer = models.ForeignKey(Customer)
@@ -43,7 +43,7 @@ class Employee(models.Model):
         ("female","女")
     )
 
-    EmploeeNum = models.CharField(max_length=20,primary_key=True)
+    EmploeeNum = models.IntegerField(primary_key=True)
     EmploeeName = models.CharField(max_length=10)
     EmploeeSex = models.CharField(max_length=5,choices=SexType)
     EmploeeDuty = models.CharField(max_length=20,choices=Type)
@@ -56,6 +56,7 @@ class MovieHouse(models.Model):
     HouseNum = models.IntegerField(primary_key=True)
     HousePlace = models.CharField(max_length=50)
     HouseName = models.CharField(max_length=20)
+    HouseEmployee = models.ForeignKey(Employee)
 
     def __str__(self):
         return self.HouseName
@@ -76,6 +77,7 @@ class Store(models.Model):
     StoreNum = models.IntegerField(primary_key=True)
     StoreName = models.CharField(max_length=20)
     StorePlace = models.CharField(max_length=50)
+    StoreEmployee = models.ForeignKey(Employee)
 
     def __str__(self):
         return self.StoreName
@@ -119,6 +121,7 @@ class Movie(models.Model):
     MovieRank = models.IntegerField()
     MovieProductor = models.CharField(max_length=20)
     MovieSupp = models.ForeignKey(MovieSupplier)
+    MovieHouse = models.ManyToManyField(MovieHouse)
 
     def __str__(self):
         return self.MovieName

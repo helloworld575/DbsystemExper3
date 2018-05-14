@@ -18,9 +18,62 @@
             <input type="text" class="input inpug-lg form-control" placeholder="请输入查询参数：" name="para" id="para">
         </div>
         <button type="submit" class="btn btn-default">查询</button>
+        <a class="btn btn-default" data-toggle="modal" data-target="#function" id="show-func">查看功能</a>
     </form>
+    <div id="table-container">
+
+    </div>
 </div>
 
+{#modeal#}
+<div class="modal fade" id="function" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">功能说明</h4>
+      </div>
+      <div class="modal-body">
+          <span>0. 查询所有顾客</span><br/>
+          <span>1. 查询所有雇员</span><br/>
+          <span>2. 查询所有消费单</span><br/>
+          <span>3. 查询所有座位位置及相应顾客和所在影院</span>
+          <span>4. 查询所有影院</span><br/>
+          <span>5. 查询所有商店</span><br/>
+          <span>6. 查询所有供货商</span><br/>
+          <span>7. 查询所有影片</span><br/>
+          <span>8. 查询所有影片供应商</span><br/>
+          <span>9. 查询所有商品</span><br/>
+          <span>00. 由姓名查询顾客信息</span><br/>
+          <span>01. 由顾客号查询其消费单号</span><br/>
+          <span>02. 由顾客号查询其电影座位号</span><br/>
+          <span>10. 由姓名查询雇员信息</span><br/>
+          <span>20. 由消费单号查询消费单</span><br/>
+          <span>30. 由座位号查询座位位置及相应顾客和所在影院</span><br/>
+          <span>40. 查询影院名对应信息</span><br/>
+          <span>41. 查询影院号对应影院播放的全部影片</span><br/>
+          <span>42. 查询影院号对应全部雇员</span><br/>
+          <span>50. 查询商店名对应商店信息</span><br/>
+          <span>51. 查询商店号对应全部供应商</span><br/>
+          <span>52. 查询商店号对应全部雇员</span><br/>
+          <span>53. 查询商店号对应全部商品</span><br/>
+          <span>60. 由供货商名查询供应商信息</span><br/>
+          <span>61. 由供货商号查找其供应所有商品</span><br/>
+          <span>70. 由影片名查找对应影片信息</span><br/>
+          <span>71. 由影片号查找所有播放影片的影院</span><br/>
+          <span>72. 由影片号查找对应供应商信息</span><br/>
+          <span>80. 由影片供应商名查找供应商信息</span><br/>
+          <span>81. 由影片供应商号查找所有其供应的影片</span><br/>
+          <span>90. 由商品名查找对应商品信息</span><br/>
+          <span>91. 由商品号查找对应商店</span><br/>
+          <span>92. 由商品号查找对应供应商</span><br/>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">确认</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <script src="{% static "plugins/DataTables/media/js/jquery.js" %}"></script>
 <script src="{% static "plugins/DataTables/media/js/jquery.dataTables.min.js" %}"></script>
@@ -28,11 +81,37 @@
 <script src="{% static "plugins/bootstrap/js/bootstrap.min.js" %}"></script>
 <script>
     $(function () {
+        var table;
         $("#select-form").submit(function () {
+            if($.fn.dataTable.isDataTable("#search-table")){
+                table.destroy(true)
+            }
+            $("#table-container").append('<table id="search-table" class="display"><thead><tr id="columns"></tr></thead></table>\n');
+            $('#search-table').removeClass( 'display' ).addClass('table table-responsive table-hover');
+
+
             var num = $("#num").val();
             var para = $("#para").val();
+
             $.get("get_sel?num="+num+"&para="+para,function (data,status) {
-                alert(data.num+" "+data.para);
+                if(data.code===200){
+                    var column = [];
+                    for(var i in data.result[0]){
+                        column.push({data:i});
+                        $("#columns").append("<th>" + i + "</th>")
+                    }
+
+                    table = $("#search-table").dataTable({
+                        data: data.result,
+                        columns: columns,
+                        paging: false,
+                        scrollY: 400,
+                        searching: false
+                    });
+                    table.draw();
+                }else{
+                    alert("代码错误！")
+                }
             });
             return false;
         })
