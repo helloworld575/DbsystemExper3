@@ -1,0 +1,12 @@
+{% extends 'admin/base_site.html' %}
+
+{% block extrahead %}
+    {% load staticfiles %}
+    <script>
+        document.ready(function () {
+            var header = document.getElementById("header");
+            alert(header);
+            header.css("width","0");
+        })
+    </script>
+{% endblock %}

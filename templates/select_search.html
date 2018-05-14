@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load staticfiles %}
+<head>
+    <meta charset="UTF-8">
+    <title>选择性数据查询</title>
+    <link rel='stylesheet' type="text/css" href="{% static 'plugins/bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'plugins/DataTables/media/css/dataTables.bootstrap.min.css' %}">
+</head>
+<body>
+<div class="container">
+    <h1 class="text-center">数据库选择查询</h1>
+    <form class="form-inline col-md-offset-2" action="{% url 'select_search' %}" id="select-form">
+        <div class="form-group">
+            <input type="number" class="input inpug-lg form-control" placeholder="请输入查询标号：" name="num" id="num">
+        </div>
+        <div class="form-group">
+            <input type="text" class="input inpug-lg form-control" placeholder="请输入查询参数：" name="para" id="para">
+        </div>
+        <button type="submit" class="btn btn-default">查询</button>
+    </form>
+</div>
+
+
+<script src="{% static "plugins/DataTables/media/js/jquery.js" %}"></script>
+<script src="{% static "plugins/DataTables/media/js/jquery.dataTables.min.js" %}"></script>
+<script src="{% static "plugins/DataTables/media/js/dataTables.bootstrap.min.js" %}"></script>
+<script src="{% static "plugins/bootstrap/js/bootstrap.min.js" %}"></script>
+<script>
+    $(function () {
+        $("#select-form").submit(function () {
+            var num = $("#num").val();
+            var para = $("#para").val();
+            $.get("get_sel?num="+num+"&para="+para,function (data,status) {
+                alert(data.num+" "+data.para);
+            });
+            return false;
+        })
+    })
+</script>
+</body>
+</html>
